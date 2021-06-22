@@ -44,15 +44,15 @@ Provision all resources with Terraform:
 
 Output:
 
-You would see something like this :
+You would see something like this -
 
 
-On Terraform -
+On Terraform
 
 ![image](https://user-images.githubusercontent.com/81134005/122927441-82e42400-d386-11eb-99bb-8349c80ecf78.png)
 
 
-On AWS Console -
+On AWS Console
 
 ![image](https://user-images.githubusercontent.com/81134005/122927464-89729b80-d386-11eb-917c-1a9f3332248c.png)
 
