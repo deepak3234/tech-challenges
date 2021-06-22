@@ -1,5 +1,6 @@
 # Three Technical Challenges
 
+===================================================================================
 _Challenge #1_
 
 Problem statement :
@@ -8,7 +9,7 @@ resources.
 
 _Solution --> _chl#1__
 
-
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 _Challenge #2_
 
@@ -18,7 +19,7 @@ json formatted output. The choice of language and implementation is up to you.
 
 _Solution --> chl#2_
 
-
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 _Challenge #3_
 
@@ -33,3 +34,5 @@ key = x/y/z
 value = a
 
 _Solution --> chl#3_
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
