@@ -1,8 +1,8 @@
-Build a 3 Tier Application
+******Build a 3 Tier Application******
 
 A three-tier architecture is a software architecture pattern where the application is broken down into three logical tiers: the presentation layer, the business logic layer, and the data storage layer. This architecture is used in a client-server application such as a web application that has the frontend, the backend, and the database. Each of these layers or tiers does a specific task and can be managed independently of each other.
 
-image
+![image](https://user-images.githubusercontent.com/81134005/122927297-5e884780-d386-11eb-80db-88e4bca85017.png)
 
 Here, AWS services is being used to design and build a three-tier cloud infrastructure: Elastic Compute Cloud (EC2), Auto Scaling Group, Virtual Private Cloud (VPC), Elastic Load Balancer (ELB), Security Groups and the Internet Gateway. This infrastructure will be designed through Terraform and will be highly available and fault tolerant.
 
@@ -12,41 +12,51 @@ Designed here is the infrastructure with one VPC with 4 subnets with combination
 
 Prerequisites:
 
-Terraform v0.14 or earlier.
-Valid AWS Subscription
+1. Terraform v0.14 or earlier.
+2. Valid AWS Subscription
+
+
 Provision all resources with Terraform:
 
-Go to 3-tier-components folder
+1. Go to 3-tier-components folder
 
-#cd 3-tier-components
+   #cd 3-tier-components
 
-Run terraform init
+2. Run terraform init
 
-#terraform init
+   #terraform init
 
-Run terraform fmt and validate
+3. Run terraform fmt and validate
 
-#terraform fmt #terraform validate
+   #terraform fmt 
+   
+   #terraform validate
 
-Apply the resources
+4. Apply the resources
 
-#terraform apply
+   #terraform apply
 
-Once done, resources can be removed by destroying them
+5. Once done, resources can be removed by destroying them
 
-#terraform destroy
+   #terraform destroy
+
+
 
 Output:
 
-You would see something like this
+You would see something like this :
+
 
 On Terraform -
 
-image
+![image](https://user-images.githubusercontent.com/81134005/122927441-82e42400-d386-11eb-99bb-8349c80ecf78.png)
+
 
 On AWS Console -
 
-image
+![image](https://user-images.githubusercontent.com/81134005/122927464-89729b80-d386-11eb-917c-1a9f3332248c.png)
+
+
 
 Reference:
 
