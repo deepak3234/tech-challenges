@@ -15,7 +15,7 @@ Write code that will query the meta data of an instance within AWS and provide a
 json formatted output. The choice of language and implementation is up to you.
 
 _Solution --> chl#2_
- 
+
 _Challenge #3_
 
 Problem statement :
